@@ -7,9 +7,8 @@ This project is a lightweight REST API built using **FastAPI** that serves a **p
 ### 📦 Features
 
 - 📤 **GET /predict** endpoint for prediction
-- 🧠 Loads a pre-trained `LinearRegression` (or similar) model from a `.pkl` file
+- 🧠 Loads a pre-trained `LinearRegression` model from a `.pkl` file
 - ⚡ Built using FastAPI — high performance, minimal code
-- 🌐 Cloud-deployable to any free-tier hosting provider
 - 🧪 Automatic Swagger documentation at `/docs`
 
 ---
