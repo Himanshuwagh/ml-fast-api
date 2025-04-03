@@ -1,10 +1,10 @@
-# 🚀 Simple ML Prediction API (FastAPI)
+## 🚀 Simple ML Prediction API (FastAPI)
 
 This project is a lightweight REST API built using **FastAPI** that serves a **pre-trained dummy machine learning model**. The API accepts a numeric input via a GET request and returns a numeric prediction as JSON. It is designed for easy local use and cloud deployment on free-tier platforms like **Render**, **Railway**, or **Fly.io**.
 
 ---
 
-## 📦 Features
+### 📦 Features
 
 - 📤 **GET /predict** endpoint for prediction
 - 🧠 Loads a pre-trained `LinearRegression` (or similar) model from a `.pkl` file
@@ -14,7 +14,7 @@ This project is a lightweight REST API built using **FastAPI** that serves a **p
 
 ---
 
-## 🧠 Model Details
+### 🧠 Model Details
 
 - Model type: `sklearn.linear_model.LinearRegression`
 - Input: Single numeric float (`x`)
@@ -25,7 +25,7 @@ This is a dummy model trained on synthetic data for demonstration.
 
 ---
 
-## 📁 Project Structure
+### 📁 Project Structure
 
     .
     ├── main.py               # fast api implementation for /predict
@@ -36,17 +36,22 @@ This is a dummy model trained on synthetic data for demonstration.
 
 ---
 
-## ⚙️ Setup Instructions
+### ⚙️ Setup Instructions
 
 ### ✅ Prerequisites
 
 - Python 3.8+
 - `pip` package manager
 
-### 🧪 Local Installation
+#### 🧪 Local Installation
 
 1. **Clone the repo or copy the files**:
 
 ```bash
 git clone https://github.com/yourusername/take_home_api.git
 cd take_home_api
+```
+
+Link to the deployed on cloud : 
+
+### 📈 Improvements & Assumptions
