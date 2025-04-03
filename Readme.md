@@ -59,7 +59,7 @@ Run locally using FastAPI
 uvicorn main:app --reload
 ```
 
-### 🚨 Link to the deployed on cloud : https://ml-fast-api.onrender.com
+### 🚨 Deployed on cloud here : https://ml-fast-api.onrender.com
 
 ### 📡 API Usage
 
