@@ -77,4 +77,20 @@ GET https://ml-fast-api.onrender.com/predict?x=7.0
   "prediction": 15.0
 }
 ```
-### 📈 Improvements & Assumptions
+
+#### Assumptions
+- Input is a clean float value (no NaNs, invalids)
+
+- Model accepts a single feature as input
+
+#### Possible Improvements (with more time)
+
+- Add input validation/range checks
+
+- Serve multiple models or versions via route params
+
+- Add Docker support for containerized deployments
+
+- Add logging, metrics, and request tracing
+
+- Implement and user Friendly UI
