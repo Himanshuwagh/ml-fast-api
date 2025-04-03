@@ -44,11 +44,19 @@ This is a dummy model trained on synthetic data for demonstration.
 
 #### 🧪 Local Installation
 
-1. **Clone the repo or copy the files**:
+Clone the repo:
 
 ```bash
 git clone https://github.com/Himanshuwagh/ml-fast-api.git
-cd take_home_api
+cd ml-fast-api
+```
+Install the libraries
+```
+pip install -r requirements.txt
+```
+Run locally using FastAPI
+```
+uvicorn main:app --reload
 ```
 
 ### 🚨 Link to the deployed on cloud : https://ml-fast-api.onrender.com
