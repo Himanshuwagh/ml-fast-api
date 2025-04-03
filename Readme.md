@@ -48,7 +48,7 @@ This is a dummy model trained on synthetic data for demonstration.
 1. **Clone the repo or copy the files**:
 
 ```bash
-git clone https://github.com/yourusername/mlapi.git
+git clone https://github.com/Himanshuwagh/ml-fast-api.git
 cd take_home_api
 ```
 
