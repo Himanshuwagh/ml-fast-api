@@ -27,6 +27,12 @@ This is a dummy model trained on synthetic data for demonstration.
 
 ## 📁 Project Structure
 
+    .
+    ├── main.py               # fast api implementation for /predict
+    ├── model.py              # pre-trained dummy model script
+    ├── simple_model.pkl      # model weight pickle file        
+    ├── README.md                    
+    ├── requirements.txt      # requirements.txt
 
 ---
 
