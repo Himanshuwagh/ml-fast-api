@@ -48,10 +48,33 @@ This is a dummy model trained on synthetic data for demonstration.
 1. **Clone the repo or copy the files**:
 
 ```bash
-git clone https://github.com/yourusername/take_home_api.git
+git clone https://github.com/yourusername/mlapi.git
 cd take_home_api
 ```
 
-Link to the deployed on cloud : 
+### 🚨 Link to the deployed on cloud : https://ml-fast-api.onrender.com
 
+### 📡 API Usage
+
+#### `GET /predict`
+
+This endpoint returns a numeric prediction based on a single numeric input.
+
+#### 🔹 How to Call
+
+You must pass the input `x` as a **query parameter** in the URL.
+
+#### 📘 Example:
+```
+GET https://ml-fast-api.onrender.com/predict?x=7.0
+```
+> 👆 This means you're sending the value `5.3` as input to the model via the `x` parameter.
+
+#### ✅ Response:
+
+```json
+{
+  "prediction": 15.0
+}
+```
 ### 📈 Improvements & Assumptions
